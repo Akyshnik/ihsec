@@ -5,7 +5,7 @@ CONFIGS_DIR=$HOME'/.ihsec/'
 #CONFIGS_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 echo " Configuration directory: "$CONFIGS_DIR
-CONFIGDIRS="$CONFIGS_DIR/*/"
+CONFIGDIRS="$CONFIGS_DIR*/"
 EMACSDIR=$HOME'/.emacs.d'
 
 function displayHelp
